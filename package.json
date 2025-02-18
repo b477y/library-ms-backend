@@ -1,0 +1,21 @@
+{
+  "name": "library-ms-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ."
+  },
+  "keywords": [
+    "library",
+    "books",
+    "API",
+    "management",
+    "backend",
+    "nodejs",
+    "express"
+  ],
+  "author": "Mohammed Saleh (Batty)",
+  "license": "ISC",
+  "description": "Node.js backend for managing library operations, including book cataloging, user registrations, borrowing, and return tracking."
+}
