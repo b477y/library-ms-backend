@@ -19,9 +19,12 @@
   "license": "ISC",
   "description": "Node.js backend for managing library operations, including book cataloging, user registrations, borrowing, and return tracking.",
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "chalk": "^5.4.1",
+    "crypto-js": "^4.2.0",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.10.1"
   }
 }

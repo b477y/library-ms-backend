@@ -22,6 +22,9 @@ const userSchema = new Schema(
     borrowedBooks: {
       type: [{ type: Types.ObjectId, ref: "Book" }],
     },
+    deletedAt: {
+      type: Date,
+    },
   },
   { timestamps: true }
 );
