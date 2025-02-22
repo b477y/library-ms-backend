@@ -1,7 +1,5 @@
-import { userModel } from "./models/User.model.js";
-
 export const create = async ({ model = "", data = {} } = {}) => {
-  return await model.create({ data });
+  return await model.create(data);
 };
 
 export const find = async ({

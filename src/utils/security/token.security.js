@@ -5,7 +5,7 @@ export const tokenTypes = {
   refresh: "refresh",
 };
 
-const generateToken = ({
+export const generateToken = ({
   payload = {},
   secretKey = process.env.USER_ACCESS_TOKEN_SK,
   tokenType = tokenTypes.access,
